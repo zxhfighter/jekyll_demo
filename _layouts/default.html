@@ -9,12 +9,14 @@
 
         <!-- page/common css -->
         <style type="text/css">
+            body
+            {
+                background: transparent url("https://raw.github.com/zxhfighter/jekyll_demo/gh-pages/_images/bg3.") no-repeat left top;
+            }
             .wrapper {
                 background-color: #efde93;
                 width: 960px;
                 margin: 0 auto;
-                border-left: 2px solid #003399;
-                border-right: 2px solid #003399;
             }
             .myHeader {
                 display: block;
@@ -40,7 +42,6 @@
             <section>
                 <article>
                     <header>
-                        <h1>{{ page.title }}</h1>
                         <p>{{ content }}</p>
                     </header>
                 </article>
